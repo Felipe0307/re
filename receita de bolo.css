@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2? family= Inconsolata:wght@200 & family= Montserrat:wght@300 & display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  outline: 0;
+  /* transition: all 700ms ease-in-out; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+div img {
+  position: relative;
+  width: 944px;
+  height: 444px;
+  top: 95px;
+  left: 150px;
+}
+
+div .title {
+  position: relative;
+  top: 29px;
+  left: 150px;
+  width: 750px;
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+
+div .information {
+  position: relative;
+  top: 55px;
+  left: 175px;
+  font-size: 20px;
+  width: 550px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+}
+/* essa vai ser para personalizar o checkbox */
+
+#custom-label {
+  position: relative;
+  top: 5px;
+  left: 85px;
+  font-size: 20px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+}
+
+.box {
+  height: 70px;
+  position: relative;
+  top: 50px;
+  left: 42px;
+  cursor: pointer;
+}
+
+input {
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 25px;
+}
+
+.box2 {
+  position: relative;
+  top: 80px;
+  left: 40px;
+  height: 50px;
+}
+
+#custom-label2 {
+  position: relative;
+  top: 45px;
+  left: 83px;
+  height: 70px;
+  font-size: 20px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* essa vai ser para personalizar o checkbox */
+
+/* esse é o display */
+.display {
+  width: 200px;
+  height: 350px;
+  position: relative;
+  left: 877px;
+  top: -825px;
+  border-radius: 7px;
+  padding: 20px 10px 5px;
+  background-color: #ffff;
+  box-shadow: 0 0 10px #000000;
+}
+
+#faca {
+  color: #f8a42f;
+  font-size: 35px;
+  position: relative;
+  top: 30px;
+  left: 5px;
+}
+
+#p1 {
+  position: relative;
+  top: -15px;
+  left: 42px;
+  color: #a09c9c;
+  font-size: 18px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+}
+
+#p2 {
+  position: relative;
+  top: -12px;
+  left: 42px;
+  font-size: 19px;
+  color: #f8a42f;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+}
+
+#tim {
+  position: relative;
+  top: 40px;
+  left: 10px;
+  font-size: 22px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+}
+
+#tim1 {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  font-size: 22px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+}
+
+#tim3 {
+  position: relative;
+  top: 60px;
+  left: 10px;
+  font-size: 22px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+}
+
+#tem {
+  position: relative;
+  top: -15px;
+  left: 45px;
+  color: #a09c9c;
+  font-size: 18px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+}
+
+#min {
+  position: relative;
+  top: -7px;
+  left: 45px;
+  font-size: 18px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+}
+
+#cook {
+  position: relative;
+  top: 5px;
+  left: 45px;
+  color: #a09c9c;
+  font-size: 18px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+}
+
+#h {
+  position: relative;
+  top: 10px;
+  left: 45px;
+  font-size: 18px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+}
+
+#total {
+  position: relative;
+  top: 25px;
+  left: 45px;
+  color: #a09c9c;
+  font-size: 18px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+}
+
+#hor {
+  position: relative;
+  top: 32px;
+  left: 45px;
+  font-size: 18px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* esse é o display */
+
+/* essa vai ser dos ingredientes */
+.chek {
+  font-size: 18px;
+  position: relative;
+  top: 150px;
+  left: 110px;
+}
+
+.crost {
+  position: relative;
+  top: 37px;
+  left: 40px;
+  font-size: 22px;
+  font-weight: 300;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+#ingre {
+  position: relative;
+  top: -1px;
+  left: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#ches {
+  position: relative;
+  top: 50px;
+  left: 40px;
+  font-size: 20px;
+  font-size: 22px;
+  font-weight: 300;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.optional {
+  position: relative;
+  font-size: 20px;
+  left: 83px;
+  top: 67px;
+  font-weight: 100;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+  width: 550px;
+}
+
+.sug {
+  position: relative;
+  left: 40px;
+  top: 92px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+}
+
+span {
+  font-weight: 550;
+}
+/* essa vai ser dos ingredientes */
+
+/* essa vai ser a parte das estruções */
+div #instruções {
+  position: relative;
+  top: -105px;
+  left: 155px;
+  font-size: 27px;
+}
+
+ol {
+  position: relative;
+  top: -120px;
+  left: 185px;
+
+  font-size: 20px;
+}
+
+ul {
+  width: 750px;
+  position: relative;
+  left: 25px;
+  margin-bottom: 20px;
+}
+
+#one {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 25px;
+  background: #f8a42f;
+  color: #ffff;
+  width: 12px;
+  height: 18px;
+  padding: 6px 12px 15px;
+  border-radius: 4px;
+  position: relative;
+  top: 35px;
+  left: -55px;
+}
+
+#two {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 25px;
+  background: #f8a42f;
+  color: #ffff;
+  width: 12px;
+  height: 18px;
+  padding: 6px 12px 15px;
+  border-radius: 4px;
+  position: relative;
+  top: 35px;
+  left: -55px;
+}
+
+#tree {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 25px;
+  background: #f8a42f;
+  color: #ffff;
+  width: 12px;
+  height: 18px;
+  padding: 6px 12px 15px;
+  border-radius: 4px;
+  position: relative;
+  top: 35px;
+  left: -55px;
+}
+
+#four {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 25px;
+  background: #f8a42f;
+  color: #ffff;
+  width: 12px;
+  height: 18px;
+  padding: 6px 12px 15px;
+  border-radius: 4px;
+  position: relative;
+  top: 35px;
+  left: -55px;
+}
+
+#five {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 25px;
+  background: #f8a42f;
+  color: #ffff;
+  width: 12px;
+  height: 18px;
+  padding: 6px 12px 15px;
+  border-radius: 4px;
+  position: relative;
+  top: 35px;
+  left: -55px;
+}
+
+#six {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 25px;
+  background: #f8a42f;
+  color: #ffff;
+  width: 12px;
+  height: 18px;
+  padding: 6px 12px 15px;
+  border-radius: 4px;
+  position: relative;
+  top: 35px;
+  left: -55px;
+}
+
+#seven {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 25px;
+  background: #f8a42f;
+  color: #ffff;
+  width: 12px;
+  height: 18px;
+  padding: 6px 12px 15px;
+  border-radius: 4px;
+  position: relative;
+  top: 35px;
+  left: -55px;
+}
+/* essa vai ser a parte das estruções */
+
+#by {
+  color: #b7b7b7;
+  position: relative;
+  top: -10px;
+  left: 450px;
+  font-size: 25px;
+}
